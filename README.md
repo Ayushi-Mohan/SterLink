@@ -1,4 +1,4 @@
-# linkster
+# SterLink
 
 Flutter Application
 
