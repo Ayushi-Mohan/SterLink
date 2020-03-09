@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "321650918311",
+    "firebase_url": "https://flutterlink-40597.firebaseio.com",
+    "project_id": "flutterlink-40597",
+    "storage_bucket": "flutterlink-40597.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321650918311:android:759507503497e93e082c82",
+        "android_client_info": {
+          "package_name": "com.company.first_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321650918311-af874ml5knfsh9qro0l5o86vlqskrr4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9aT2iRCGVk7PXu4jafy62EL0dlAwMhU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321650918311-af874ml5knfsh9qro0l5o86vlqskrr4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321650918311:android:20f6e8ac677dc0a5082c82",
+        "android_client_info": {
+          "package_name": "com.example.linkster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321650918311-af874ml5knfsh9qro0l5o86vlqskrr4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9aT2iRCGVk7PXu4jafy62EL0dlAwMhU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321650918311-af874ml5knfsh9qro0l5o86vlqskrr4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321650918311:android:9e9b8db1723de1f5082c82",
+        "android_client_info": {
+          "package_name": "com.example.recognizeText"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321650918311-af874ml5knfsh9qro0l5o86vlqskrr4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9aT2iRCGVk7PXu4jafy62EL0dlAwMhU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321650918311-af874ml5knfsh9qro0l5o86vlqskrr4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

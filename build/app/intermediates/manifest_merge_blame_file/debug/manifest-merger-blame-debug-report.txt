@@ -1,0 +1,193 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.linkster"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml
+10    <!--
+11         io.flutter.app.FlutterApplication is an android.app.Application that
+12         calls FlutterMain.startInitialization(this); in its onCreate method.
+13         In most cases you can leave this as-is, but you if you want to provide
+14         additional functionality it is fine to subclass or reimplement
+15         FlutterApplication and put your custom class here.
+16    -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:8:5-66
+17-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:8:22-64
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->[:image_picker] /Users/ayushimohan/Desktop/yushi/linkster/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+18-->[:image_picker] /Users/ayushimohan/Desktop/yushi/linkster/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->[:image_picker] /Users/ayushimohan/Desktop/yushi/linkster/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+19-->[:image_picker] /Users/ayushimohan/Desktop/yushi/linkster/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->[:camera] /Users/ayushimohan/Desktop/yushi/linkster/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-65
+20-->[:camera] /Users/ayushimohan/Desktop/yushi/linkster/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-62
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->[:camera] /Users/ayushimohan/Desktop/yushi/linkster/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-71
+21-->[:camera] /Users/ayushimohan/Desktop/yushi/linkster/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-68
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.google.firebase:firebase-iid:18.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/0a75abb8f07fa667182e3e140d20b662/jetified-firebase-iid-18.0.0/AndroidManifest.xml:22:5-79
+22-->[com.google.firebase:firebase-iid:18.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/0a75abb8f07fa667182e3e140d20b662/jetified-firebase-iid-18.0.0/AndroidManifest.xml:22:22-76
+23    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+23-->[com.google.firebase:firebase-iid:18.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/0a75abb8f07fa667182e3e140d20b662/jetified-firebase-iid-18.0.0/AndroidManifest.xml:24:5-68
+23-->[com.google.firebase:firebase-iid:18.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/0a75abb8f07fa667182e3e140d20b662/jetified-firebase-iid-18.0.0/AndroidManifest.xml:24:22-65
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+24-->[com.google.firebase:firebase-iid:18.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/0a75abb8f07fa667182e3e140d20b662/jetified-firebase-iid-18.0.0/AndroidManifest.xml:26:5-82
+24-->[com.google.firebase:firebase-iid:18.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/0a75abb8f07fa667182e3e140d20b662/jetified-firebase-iid-18.0.0/AndroidManifest.xml:26:22-79
+25
+26    <application
+26-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:10:5-38:19
+27        android:name="io.flutter.app.FlutterApplication"
+27-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:11:9-57
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/e91dc08e955cc2e95069b0110f99683d/core-1.0.0/AndroidManifest.xml:22:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:13:9-43
+31        android:label="linkster" >
+31-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:12:9-33
+32        <activity
+32-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:14:9-25:20
+33            android:name="com.example.linkster.MainActivity"
+33-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:15:13-41
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+34-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:18:13-163
+35            android:hardwareAccelerated="true"
+35-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:19:13-47
+36            android:launchMode="singleTop"
+36-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:16:13-43
+37            android:theme="@style/LaunchTheme"
+37-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:17:13-47
+38            android:windowSoftInputMode="adjustResize" >
+38-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:20:13-55
+39            <intent-filter>
+39-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:21:13-24:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:22:17-68
+40-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:22:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:23:17-76
+42-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:23:27-74
+43            </intent-filter>
+44        </activity>
+45        <!--
+46             Don't delete the meta-data below.
+47             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+48        -->
+49        <activity
+49-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:28:9-34:20
+50            android:name="com.example.linkster.EmbeddingV1Activity"
+50-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:29:13-48
+51            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+51-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:31:13-137
+52            android:hardwareAccelerated="true"
+52-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:32:13-47
+53            android:theme="@style/LaunchTheme"
+53-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:30:13-47
+54            android:windowSoftInputMode="adjustResize" >
+54-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:33:13-55
+55        </activity>
+56
+57        <meta-data
+57-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:35:9-37:44
+58            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+58-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:36:13-70
+59            android:value="barcaode,ocr" />
+59-->/Users/ayushimohan/Desktop/yushi/linkster/android/app/src/main/AndroidManifest.xml:37:13-41
+60
+61        <service
+61-->[:firebase_ml_vision] /Users/ayushimohan/Desktop/yushi/linkster/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+62            android:name="com.google.firebase.components.ComponentDiscoveryService"
+62-->[:firebase_ml_vision] /Users/ayushimohan/Desktop/yushi/linkster/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+63            android:exported="false" >
+63-->[com.google.firebase:firebase-iid:18.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/0a75abb8f07fa667182e3e140d20b662/jetified-firebase-iid-18.0.0/AndroidManifest.xml:31:13-37
+64            <meta-data
+64-->[:firebase_ml_vision] /Users/ayushimohan/Desktop/yushi/linkster/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+65                android:name="com.google.firebase.components:io.flutter.plugins.firebasemlvision.FlutterFirebaseAppRegistrar"
+65-->[:firebase_ml_vision] /Users/ayushimohan/Desktop/yushi/linkster/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[:firebase_ml_vision] /Users/ayushimohan/Desktop/yushi/linkster/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+67            <meta-data
+67-->[:firebase_core] /Users/ayushimohan/Desktop/yushi/linkster/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+68                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+68-->[:firebase_core] /Users/ayushimohan/Desktop/yushi/linkster/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[:firebase_core] /Users/ayushimohan/Desktop/yushi/linkster/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-iid:18.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/0a75abb8f07fa667182e3e140d20b662/jetified-firebase-iid-18.0.0/AndroidManifest.xml:32:13-34:85
+71                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+71-->[com.google.firebase:firebase-iid:18.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/0a75abb8f07fa667182e3e140d20b662/jetified-firebase-iid-18.0.0/AndroidManifest.xml:33:17-96
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-iid:18.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/0a75abb8f07fa667182e3e140d20b662/jetified-firebase-iid-18.0.0/AndroidManifest.xml:34:17-82
+73        </service>
+74
+75        <provider
+75-->[:image_picker] /Users/ayushimohan/Desktop/yushi/linkster/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+76            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+76-->[:image_picker] /Users/ayushimohan/Desktop/yushi/linkster/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+77            android:authorities="com.example.linkster.flutter.image_provider"
+77-->[:image_picker] /Users/ayushimohan/Desktop/yushi/linkster/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+78            android:exported="false"
+78-->[:image_picker] /Users/ayushimohan/Desktop/yushi/linkster/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+79            android:grantUriPermissions="true" >
+79-->[:image_picker] /Users/ayushimohan/Desktop/yushi/linkster/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+80            <meta-data
+80-->[:image_picker] /Users/ayushimohan/Desktop/yushi/linkster/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+81                android:name="android.support.FILE_PROVIDER_PATHS"
+81-->[:image_picker] /Users/ayushimohan/Desktop/yushi/linkster/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+82                android:resource="@xml/flutter_image_picker_file_paths" />
+82-->[:image_picker] /Users/ayushimohan/Desktop/yushi/linkster/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+83        </provider>
+84
+85        <receiver
+85-->[com.google.firebase:firebase-iid:18.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/0a75abb8f07fa667182e3e140d20b662/jetified-firebase-iid-18.0.0/AndroidManifest.xml:37:9-44:20
+86            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+86-->[com.google.firebase:firebase-iid:18.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/0a75abb8f07fa667182e3e140d20b662/jetified-firebase-iid-18.0.0/AndroidManifest.xml:38:13-78
+87            android:exported="true"
+87-->[com.google.firebase:firebase-iid:18.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/0a75abb8f07fa667182e3e140d20b662/jetified-firebase-iid-18.0.0/AndroidManifest.xml:39:13-36
+88            android:permission="com.google.android.c2dm.permission.SEND" >
+88-->[com.google.firebase:firebase-iid:18.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/0a75abb8f07fa667182e3e140d20b662/jetified-firebase-iid-18.0.0/AndroidManifest.xml:40:13-73
+89            <intent-filter>
+89-->[com.google.firebase:firebase-iid:18.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/0a75abb8f07fa667182e3e140d20b662/jetified-firebase-iid-18.0.0/AndroidManifest.xml:41:13-43:29
+90                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+90-->[com.google.firebase:firebase-iid:18.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/0a75abb8f07fa667182e3e140d20b662/jetified-firebase-iid-18.0.0/AndroidManifest.xml:42:17-81
+90-->[com.google.firebase:firebase-iid:18.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/0a75abb8f07fa667182e3e140d20b662/jetified-firebase-iid-18.0.0/AndroidManifest.xml:42:25-78
+91            </intent-filter>
+92        </receiver>
+93
+94        <activity
+94-->[com.google.android.gms:play-services-base:16.0.1] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/5b22788b2ea9befc7044848c304ff026/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+95            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+95-->[com.google.android.gms:play-services-base:16.0.1] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/5b22788b2ea9befc7044848c304ff026/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+96            android:exported="false"
+96-->[com.google.android.gms:play-services-base:16.0.1] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/5b22788b2ea9befc7044848c304ff026/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+97-->[com.google.android.gms:play-services-base:16.0.1] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/5b22788b2ea9befc7044848c304ff026/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+98
+99        <provider
+99-->[com.google.firebase:firebase-common:17.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/eeed99adad625cdbcdaa24aadce464e4/jetified-firebase-common-17.0.0/AndroidManifest.xml:12:9-16:39
+100            android:name="com.google.firebase.provider.FirebaseInitProvider"
+100-->[com.google.firebase:firebase-common:17.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/eeed99adad625cdbcdaa24aadce464e4/jetified-firebase-common-17.0.0/AndroidManifest.xml:13:13-77
+101            android:authorities="com.example.linkster.firebaseinitprovider"
+101-->[com.google.firebase:firebase-common:17.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/eeed99adad625cdbcdaa24aadce464e4/jetified-firebase-common-17.0.0/AndroidManifest.xml:14:13-72
+102            android:exported="false"
+102-->[com.google.firebase:firebase-common:17.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/eeed99adad625cdbcdaa24aadce464e4/jetified-firebase-common-17.0.0/AndroidManifest.xml:15:13-37
+103            android:initOrder="100" />
+103-->[com.google.firebase:firebase-common:17.0.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/eeed99adad625cdbcdaa24aadce464e4/jetified-firebase-common-17.0.0/AndroidManifest.xml:16:13-36
+104
+105        <meta-data
+105-->[com.google.android.gms:play-services-basement:16.1.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/aeefd5f39e89bf2cd689ca90b2cf0102/jetified-play-services-basement-16.1.0/AndroidManifest.xml:23:9-25:69
+106            android:name="com.google.android.gms.version"
+106-->[com.google.android.gms:play-services-basement:16.1.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/aeefd5f39e89bf2cd689ca90b2cf0102/jetified-play-services-basement-16.1.0/AndroidManifest.xml:24:13-58
+107            android:value="@integer/google_play_services_version" />
+107-->[com.google.android.gms:play-services-basement:16.1.0] /Users/ayushimohan/.gradle/caches/transforms-2/files-2.1/aeefd5f39e89bf2cd689ca90b2cf0102/jetified-play-services-basement-16.1.0/AndroidManifest.xml:25:13-66
+108    </application>
+109
+110</manifest>
