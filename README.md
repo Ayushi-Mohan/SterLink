@@ -1,6 +1,6 @@
 # linkster
 
-A new Flutter project.
+project parser
 
 ## Getting Started
 
